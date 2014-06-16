@@ -5,6 +5,7 @@
   "main": "Gulpfile.js",
   "dependencies": {
     "dateformat": "*",
+    "ect": "*",
     "event-stream": "*",
     "gulp": "*",
     "gulp-rename": "*",
@@ -17,11 +18,13 @@
     "yargs": "*"
   },
   "devDependencies": {
+    "gulp-changed": "*",
     "jshint": "*",
     "jshint-stylish": "*"
   },
   "scripts": {
-    "test": "jshint --reporter node_modules/jshint-stylish/stylish.js Gulpfile.js lib/*"
+    "test": "jshint --reporter node_modules/jshint-stylish/stylish.js Gulpfile.js lib/*",
+    "postinstall": "bower install"
   },
   "repository": {
     "type": "git",

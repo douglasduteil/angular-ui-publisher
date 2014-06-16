@@ -1,0 +1,15 @@
+{
+  "name": "angular-ui-publisher",
+  "version": "1.2.6",
+  "homepage": "https://github.com/douglasduteil/angular-ui-publisher",
+  "authors": [
+    "Douglas Duteil <douglasduteil@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "^1",
+    "bootstrap": "^3",
+    "angular-bootstrap": "^0"
+  }
+}
